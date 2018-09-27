@@ -18,3 +18,9 @@ function dec(n){
   n -= 1
   return n
 }
+makeInt(n){
+  return parseInt(n)
+}
+preserveDecimal(n){
+  return parseFloat(n)
+}
